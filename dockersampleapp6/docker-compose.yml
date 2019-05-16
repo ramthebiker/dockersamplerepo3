@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dockersampleapp6:
+    image: dockersampleapp6
+    build:
+      context: .
+      dockerfile: dockersampleapp6/Dockerfile
